@@ -97,7 +97,7 @@ Dataset yang diacu adalah:
 
 ### Cara Pengunduhan:
 1. **Otomatis via Notebook / Script (Direkomendasikan)**:
-   - Pada bagian 0.1 di `main.ipynb`, jika direktori `data/` masih kosong dan variabel `user_synthetic_data = False`, sistem akan otomatis mengunduh dataset dari Kaggle via `kagglehub` dan mengekstraknya ke folder `data/`.
+   - Pada bagian 0.1 di `main.ipynb`, jika direktori `data/` masih kosong dan variabel `use_synthetic_data = False`, sistem akan otomatis mengunduh dataset dari Kaggle via `kagglehub` dan mengekstraknya ke folder `data/`.
 2. **Menggunakan Kaggle CLI** (jika telah memiliki `kaggle.json`):
    ```bash
    kaggle datasets download -d frmgtx/facial-emotion-recognition-images-raw-dataset -p data/ --unzip
@@ -107,10 +107,10 @@ Dataset yang diacu adalah:
    - Klik tombol **Download** (format `.zip`).
    - Ekstrak seluruh isi file gambar ke dalam folder `data/` pada proyek ini.
 
-> **Skema Pemilihan Data Citra (`user_synthetic_data`):**  
-> Pada `main.ipynb` Section 0.1, tersedia variabel kendali `user_synthetic_data`:
-> - `user_synthetic_data = False`: Menggunakan citra nyata dari dataset Kaggle (mengunduh & mengekstrak otomatis jika direktori kosong).
-> - `user_synthetic_data = True`: Menggunakan citra wajah sintetis terstruktur (`create_synthetic_face()`) beresolusi 256×256 secara instan tanpa perlu unduhan.
+> **Skema Pemilihan Data Citra (`use_synthetic_data`):**  
+> Pada `main.ipynb` Section 0.1, tersedia variabel kendali `use_synthetic_data`:
+> - `use_synthetic_data = False`: Menggunakan citra nyata dari dataset Kaggle (mengunduh & mengekstrak otomatis jika direktori kosong).
+> - `use_synthetic_data = True`: Menggunakan citra wajah sintetis terstruktur (`create_synthetic_face()`) beresolusi 256×256 secara instan tanpa perlu unduhan.
 
 ---
 
