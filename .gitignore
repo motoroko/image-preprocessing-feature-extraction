@@ -1,0 +1,37 @@
+# Virtual Environment
+venv/
+.venv/
+env/
+ENV/
+
+# Python cache & artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# IDE and OS
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Large dataset & downloaded archives (keep data/.gitkeep)
+data/*
+!data/.gitkeep
+!data/sample/
+
+# Academic documentation, reports, and writing drafts
+GUIDELINE.md
+REPORT.md
+PENULISAN/
+
