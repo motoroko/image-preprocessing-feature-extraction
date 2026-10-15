@@ -69,10 +69,7 @@ image-preprocessing-playground/
 
 ## Instalasi dan Setup Lingkungan
 
-1. **Clone repositori atau buka direktori proyek**:
-   ```bash
-   cd "d:/1-S2/Semester 3/Pattern Recognition/Tugas Pengolahan Citra"
-   ```
+1. **Clone repositori**:
 
 2. **Buat dan aktifkan Virtual Environment**:
    - Di Windows (PowerShell):
